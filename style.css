@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #2980b9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    color: white;
+    padding-left: 20px;
+}
+
+.icons {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons h1 {
+    padding: 20px;
+}
+
+.discord-logo {
+    width: 100px;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.main-quote {
+    border: solid;
+    border-color: #1abc9c;
+}
+
+.content-container {
+    text-align: center;
+    padding: 20px;
+}
